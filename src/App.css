@@ -1,5 +1,28 @@
 .App {
-  text-align: center;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding: 24px;
+}
+
+.App input {
+  height: 40px;
+  width: 70%;
+  border-radius: 8px;
+}
+
+.list-container {
+  margin-top: 12px;
+}
+
+.list {
+  margin-bottom: 8px;
+}
+.App button {
+  height: 40px;
+  width: 20%;
+  margin-left: auto;
+  border-radius: 8px;
 }
 
 .App-logo {
